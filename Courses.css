@@ -1,0 +1,47 @@
+
+.Courses {
+    width: 1200px;
+    height: 45cm;
+    margin-top: 20px;
+}
+
+.CourseTab1 {   
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px  rgb(0, 0, 0);
+    width: 380px;
+    height: 7cm;
+    float: left;
+    
+}
+
+
+.CourseTab1 img {
+    width: 97%;
+    padding: 4px   0px    10px    4px;
+    height: 5cm;
+}
+
+.Detail {
+    text-align: center;
+    font-size: bold ;
+    margin: 0px;
+    text-shadow: 2px    2px 5px rgb(50, 236, 13);
+   
+}
+
+#Bold   {
+    font-size: 13pt;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+
+.Detail a{
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,62 @@
+.Footer {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 15px;
+    overflow: auto;
+    padding-top: 1px;
+    background-color: rgb(61, 49, 49);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top: 5px groove  rgb(15, 223, 106) ;
+}
+
+.Footer img {
+    margin: 10px;
+    padding-left: 20px;
+    padding-top: 1px;
+    border-radius: 15px;
+    float: left;
+    width: 10%;
+}
+
+.FooterTextContent  {
+    float: left;
+    width: 65%;
+}
+
+.FooterTextContent h3 {
+text-align: left;
+padding-top: 50px;
+padding-left: 30px;
+color: aliceblue;
+}
+
+.FooterTextContent  h4  {
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 80px;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+
+
+
+.ContactPerson  {
+    color: rgb(255, 255, 255);
+    margin: 2px;
+    padding-top: 3.2%;
+    font-size: 1.5em;
+}
+
+.Helpdesk   {
+    margin: 1.5%;
+    margin-left: 50%;
+    color: aliceblue;
+    font-variant: inherit;
+    font: 1.2em sans-serif;
+}
+
+.Helpdesk   h3  {
+    text-decoration: underline;
+    padding-bottom: 8px;
+}

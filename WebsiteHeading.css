@@ -1,0 +1,90 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+.end    {
+    height: 100%;
+    background: linear-gradient(90deg, rgb(145, 147, 248) 0%, rgb(221, 241, 190) 100%);
+
+}
+
+
+.background {
+   
+    width: fit-content;
+   
+}
+
+.header{
+    background-color: rgb(235, 184, 184);
+    align-items: center;    
+    align-content: center;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top: 5px groove  rgb(15, 223, 106);
+    justify-content: center;
+}
+
+.header h1{
+    color: rgb(82, 0, 245);
+    font-size: 3.7em;
+    text-decoration: wavy;
+    text-shadow: 3px  3px  8px red;
+
+}
+
+.header h4{
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+
+
+.navigator{
+    background-color: rgb(54, 145, 219);
+    align-items: right;
+    justify-content: right;
+    text-align: center;
+    padding: 5px    10px    ;
+}
+
+
+.navigator ul li{
+    color: rgb(254, 254, 254);
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 2px;
+    text-align: center;
+    padding: 4px    30px    5px    5px;
+    margin-right: 15px;
+    border-top: 4px rgb(132, 61, 61);
+   
+    cursor: pointer;
+
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top: 5px groove  rgb(15, 223, 106) ;
+    
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom: 5px groove  rgb(15, 223, 106) ;
+}
+
+.navigator  ul  li  a{
+    font-size:  20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navigator ul    li:hover{
+    
+    background: linear-gradient(90deg, rgb(0, 4, 231) 0%, rgb(102, 114, 226) 100%);
+    font-weight: bolder;
+    
+    transition: 0.2s   ease-in-out;
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+}
